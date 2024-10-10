@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FAFAFA;
+
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 100px;
+}
+header{
+    padding: 40px 0;
+    background-color: #FFFFFF;
+}
+.header-paretn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-right {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.header-righ h2{
+    font-size: 36px;
+    font-weight: 700;
+    color: #424242;
+}
+.h-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    padding: 30px 0;
+}
+form{
+    width: 650px;
+    height: 786px;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 50px;
+    border: 1px solid #DEDBDB;
+    padding:  0 70px;
+    background-color: #FFFFFF;
+}
+.h-right{
+    display: flex;
+    align-items: center;
+    gap :10px;
+}
+.h-right a{
+    color: #F0400F;
+    font-size: 24px;
+    font-weight: 700;
+}
+h1{
+    color: #0E0D5D;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 100px;
+}
+.he-parent{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F5F5F5;
+    margin-top: 50px;
+    padding: 15px 40px;
+    border-radius: 20px;
+}
+.he-parent button{
+    padding: 20px 60px;
+    background-color:  #F5F5F5;
+    border: none;
+    border-radius: 20px;
+
+}
+
+.he-parent button:hover{
+background-color: #FFFFFF;
+}
+input{
+    width: 533px;
+    height: 65px;
+    background-color: #FAFAFA;
+    border-radius: 20px;
+    margin-top: 50px;
+    border: none;
+
+}
+input::placeholder{
+    color: #757575B2;
+    padding-left: 40px;
+}
+
+a{
+    margin-right: 300pxpx;
+    text-align: center;
+    font-size: 20px;
+    color: #000000A3;
+    text-decoration: none;
+}
+p{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.w{
+    padding: 20px 30px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    background-color: #F69E86;
+    margin-top: 40px;
+    margin-left: 400px;
+}
